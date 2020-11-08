@@ -1,0 +1,335 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Main Styling */
+
+html,
+body {
+    font-family: 'Comic Neue', cursive;
+    line-height: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Utility Classes */
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.text-primary {
+    color: red;
+}
+
+.lead {
+    display: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    background: #333333;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ecaf7d;
+    color: #333333;
+}
+
+.btn-light {
+    background: white;
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+}
+
+.bg-dark {
+    background: #333333;
+    color: black;
+}
+
+.bg-light {
+    background: #333333;
+    color: #333333;
+}
+
+.bg-light-tc {
+    background-color: white;
+    color: #333333;
+}
+
+.bg-primary {
+    color: #333333;
+    background: #ecaf7d;
+}
+
+.clr {
+    float: both;
+}
+
+.l-heading {
+    font-size: 40px;
+}
+
+
+/* Only For Timeline */
+
+.box-light {
+    background-color: #e7ffe3;
+    color: black;
+}
+
+.box-light .history {
+    background-color: white;
+    color: black;
+}
+
+
+/* Padding */
+
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+
+/* Navbar */
+
+#navbar {
+    background: #333333;
+    color: #ffffff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #ffffff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar li a:hover,
+#navbar li a.current {
+    background: #424242;
+    color: red;
+}
+
+
+/* Showcase */
+
+#showcase {
+    background: url('facts-about-Kalam.jpg') no-repeat center, center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: black;
+    text-align: center;
+    padding-right: 570px;
+}
+
+#showcase .showcase-content h4 {
+    float: right;
+    padding-left: 300px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.4em;
+}
+
+#showcase .showcase-content h1 {
+    padding-top: 29px;
+    padding-bottom: 5px;
+    line-height: 1.7em;
+}
+
+
+/* Home Info */
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('apj-kalam.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    color: white;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 5px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+
+/* Timeline */
+
+#timeline {
+    color: #333333;
+    text-align: center;
+}
+
+#timeline img {
+    padding-left: 10px;
+    height: 100px;
+}
+
+
+/* History */
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+
+/* Thoughts */
+
+.body-thoughts {
+    background: #344a72;
+    color: #fff;
+}
+
+.video-thoughts {
+    padding-right: 1px;
+}
+
+.box-light-thought .thought {
+    text-align: center;
+}
+
+
+/* Features */
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+
+/* About Info */
+
+#home-info-au {
+    height: 400px;
+}
+
+#home-info-au .au-img {
+    float: left;
+    width: 50%;
+    background: url('logo.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info-au .au-content {
+    color: white;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 5px;
+    overflow: hidden;
+}
+
+#home-info-au .info-content p {
+    padding-bottom: 30px;
+}
+
+
+/* Guests */
+
+#guests {
+    background-color: #ecaa73;
+}
+
+.guests-saying img {
+    float: left;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+}
+
+.guests-saying {
+    border-bottom: #ee8835 dotted 2px;
+}
+
+#contact-info .box {
+    border-bottom: #444444 dotted 1px;
+}
+
+.what-our-guest-say {
+    background-color: #FDE5B8;
+}
+
+.gs {
+    border-color: black;
+}
+
+
+/* Sign In */
+
+
+/* Footer */
+
+#main-footer {
+    text-align: center;
+    background: #444444;
+    color: white;
+    padding: 20px;
+}
